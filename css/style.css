@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.slider{
+    background-image: url(../ali.123.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slider .overlay{
+    background-color: none;
+    padding: 90px;
+}
+.slider .slidercontent{
+    text-align: center;
+    color: rgb(252, 235, 6);
+   /* border: 2px solid red;*/
+    width: 30% auto;
+}
+.slider .slidercontent p{
+    font-size: 40px;
+    font-style: italic;
+    text-transform: capitalize;
+    margin: 25px;
+    font-weight: 500;
+}
+.slider .slidercontent h2{
+    text-transform: uppercase;
+    font-size: 55px;
+    margin: 20px;
+}
+.slider .slidercontent button{
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 10px;
+    background-color: darkorange;
+    border: none;
+    color: aliceblue;
+    border-radius: 10%;
+    cursor: pointer;
+
+
+}
+
+.servicesection{
+    text-align: center;
+    padding: 80px;
+}
+header{
+    padding: 50px;
+}
+header h3{
+    text-transform: uppercase;
+    font-size: 55px;
+    padding-bottom: 20px;
+}
+.servicesection .textbox{
+    /*border: 1px solid red;*/
+    width: 25%;
+    padding: 25px;
+    display: inline-block;
+}
+
+}
+.portfoliosection .imagebox{
+    width: 55%;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+}
